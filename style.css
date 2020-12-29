@@ -1,0 +1,53 @@
+body {
+      text-align: center;
+      background-color: rgb(170, 250, 138);
+}
+
+button {
+      font-family: 'Audiowide', cursive;
+}
+
+#randomizing {
+      text-decoration: none;
+      font-size: 25px;
+      color: rgb(170, 250, 138);
+      font-weight: 800;
+      border-radius: 50px;
+      border: 8px solid rgb(226, 43, 62);
+}
+
+#randomizing:hover {
+      border: 8px solid rgb(113, 83, 243);
+      border-radius: 50px;
+      background-color: rgb(113, 83, 243);
+      color: rgb(170, 250, 138);
+}
+
+input {
+      border-radius: 20px;
+      text-align: center;
+      border: none;
+      padding: 10px 50px;
+}
+
+h1 {
+      font-family: 'Langar', cursive;
+      font-weight: bold;
+      font-size: 50px;
+}
+
+h2 {
+      font-family: 'Audiowide', cursive;
+      font-size: 15px;
+      font-weight: 600;
+}
+
+ul {
+      font-family: 'Nova Flat', cursive;
+      font-size: 20px;
+      list-style-type:none;
+}
+
+input {
+      font-family: 'Nova Flat', cursive;
+}

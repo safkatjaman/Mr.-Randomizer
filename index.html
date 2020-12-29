@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mr. For Loop</title>
+
+      <!-- Font Family -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+
+      <!-- Bootstrap file -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+      <!-- CSS File -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <section class="jumbotron jumbotron-fluid container">
+            <div class="container">
+                  <header>
+                        <h1>Hello I am Mr. Randomizer</h1>
+
+                        <h2>Enter Your Friends Name In The Below Boxes & We Will Randomize The Names & Tell You The Serial</h2>
+                  </header>
+            </div>
+
+<br><br>
+
+            <div>
+                  <form class="" action="index.html" method="get">
+                        <input type="text" name="array[]" value="" id="friend1">
+<br><br>
+                        <input type="text" name="array[]" value="" id="friend2">
+<br><br>
+                        <input type="text" name="array[]" value="" id="friend3">
+<br><br>
+                        <input type="text" name="array[]" value="" id="friend4">
+<br><br>
+                        <input type="text" name="array[]" value="" id="friend5">
+                  </form>
+            </div>
+
+<br><br>
+
+            <div>
+                  <ul id="friendsNameRandomized"></ul>
+            </div>
+
+<br>
+                  <button class="btn btn-danger" id="randomizing" onclick="takeFriendName()">
+                        Randomize Your Friends List
+                  </button>
+<br><br>
+                  <button class="btn btn-danger reloadButton" id="randomizing">
+                        Reload
+                  </button>
+      </section>
+
+      <!-- JavaScript -->
+      <script src="app.js"></script>
+</body>
+</html>
